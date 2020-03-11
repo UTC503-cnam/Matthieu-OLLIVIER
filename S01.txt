@@ -1,0 +1,80 @@
+##################################################################################
+
+1- Familiarisez-vous avec les notions suivantes:
+
+instruction: une opération de base d'un langage de programmation
+
+mot clé:  nom ayant une signification spéciale, et qui ne peut pas être utilisé 
+comme identificateur de classe, de méthode ou de variable (ex: private, public,...)
+
+variable: entité créée dans l'ordinateur à laquelle on donne un nom et qu'on utilise 
+en évoquant ce nom dans le code source du programme, capable de contenir des informations
+dont la valeur peut varier au cours du temps selon les manipulations que le programme lui fait subir.
+
+constante: variable, qui ne peut pas changer de valeur au cours du programme
+
+identifiant:nom ou intitulé servant à identifier un objet précis
+
+type:sert à déterminer la nature des données affectées aux variables (ex: char, integer, float)
+
+structure de données: la structure de données est la façon de ranger les données (ex: tableau,liste)
+
+tableaux: structure de données, ou les éléments sont stockés dans des cases étiquetées d'un numéro (indice).
+
+structures de contrôle: structures qui permettent de modifier le traitement d’un programme en fonction d’une condition 
+(utilise les conditions, if par exemple, et les boucles, while par exemple)
+
+exception: interruption de l'exécution du programme à la suite d'un événement particulier
+
+module: fichier de code de programmation ou un fichier de bibliothèque statique ou dynamique.
+
+import de module: permet d'importer une ou plusieurs fonctions d'un module
+
+commentaire: très utile à la compréhension du code !! des portions du code source ignorées par le compilateur
+ ou l’interpréteur, car destinées en général à un lecteur humain et non censées influencer l’exécution du programme.
+
+
+
+##################################################################################
+
+2- QUelles différences faites-vous entre définition et déclaration ?
+
+déclaration: permet de déclarer une fonction (prototype)
+définition: définie ce que fait une fonction
+
+##################################################################################
+
+3- QUelles différences faites-vous entre procédures , fonctions et méthodes ?
+
+J'ai envie de dire qu'il n'y en a peu, voire pas.
+Pour être pointilleux, on pourrait dire que la méthode est une fonction liée à une classe ou un objet.
+
+##################################################################################
+
+4- Indiquez pour chacun des langages suivants les paradigmes utilisés:
+
+assembleur: je dirais paradigmme « mnémoniques » (du grec mnêmonikos, relatif à la mémoire)
+
+logo: paradigme impérative dans cours, orienté objet sur wiki https://fr.wikipedia.org/wiki/Logo_(langage)
+
+##################################################################################
+
+5- Sans modifier sa grammaire, comment peut-on intégrer un paradigme à un langage ?
+
+Par exemple, pour un langage ne gérant pas les objets, on pourrait utiliser une fonction objet.
+
+##################################################################################
+
+6- Sans modifier sa grammaire, comment peut-on intégrer un paradigme à un langage ?
+
+VS Code installé en local, ainsi que node.js
+
+##################################################################################
+
+7- Essayer le "Hello World" avec plusieurs langages
+
+Python:
+# coding: utf-8
+print("Hello world")
+
+
