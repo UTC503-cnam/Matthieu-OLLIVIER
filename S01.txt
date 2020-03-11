@@ -2,79 +2,99 @@
 
 1- Familiarisez-vous avec les notions suivantes:
 
-instruction: une opération de base d'un langage de programmation
+instruction: une opÃ©ration de base d'un langage de programmation
 
-mot clé:  nom ayant une signification spéciale, et qui ne peut pas être utilisé 
-comme identificateur de classe, de méthode ou de variable (ex: private, public,...)
+mot clÃ©:  nom ayant une signification spÃ©ciale, et qui ne peut pas Ãªtre utilisÃ© 
+comme identificateur de classe, de mÃ©thode ou de variable (ex: private, public,...)
 
-variable: entité créée dans l'ordinateur à laquelle on donne un nom et qu'on utilise 
-en évoquant ce nom dans le code source du programme, capable de contenir des informations
+variable: entitÃ© crÃ©Ã©e dans l'ordinateur Ã  laquelle on donne un nom et qu'on utilise 
+en Ã©voquant ce nom dans le code source du programme, capable de contenir des informations
 dont la valeur peut varier au cours du temps selon les manipulations que le programme lui fait subir.
 
 constante: variable, qui ne peut pas changer de valeur au cours du programme
 
-identifiant:nom ou intitulé servant à identifier un objet précis
+identifiant:nom ou intitulÃ© servant Ã  identifier un objet prÃ©cis
 
-type:sert à déterminer la nature des données affectées aux variables (ex: char, integer, float)
+type:sert Ã  dÃ©terminer la nature des donnÃ©es affectÃ©es aux variables (ex: char, integer, float)
 
-structure de données: la structure de données est la façon de ranger les données (ex: tableau,liste)
+structure de donnÃ©es: la structure de donnÃ©es est la faÃ§on de ranger les donnÃ©es (ex: tableau,liste)
 
-tableaux: structure de données, ou les éléments sont stockés dans des cases étiquetées d'un numéro (indice).
+tableaux: structure de donnÃ©es, ou les Ã©lÃ©ments sont stockÃ©s dans des cases Ã©tiquetÃ©es d'un numÃ©ro (indice).
 
-structures de contrôle: structures qui permettent de modifier le traitement d’un programme en fonction d’une condition 
+structures de contrÃ´le: structures qui permettent de modifier le traitement dâ€™un programme en fonction dâ€™une condition 
 (utilise les conditions, if par exemple, et les boucles, while par exemple)
 
-exception: interruption de l'exécution du programme à la suite d'un événement particulier
+exception: interruption de l'exÃ©cution du programme Ã  la suite d'un Ã©vÃ©nement particulier
 
-module: fichier de code de programmation ou un fichier de bibliothèque statique ou dynamique.
+module: fichier de code de programmation ou un fichier de bibliothÃ¨que statique ou dynamique.
 
 import de module: permet d'importer une ou plusieurs fonctions d'un module
 
-commentaire: très utile à la compréhension du code !! des portions du code source ignorées par le compilateur
- ou l’interpréteur, car destinées en général à un lecteur humain et non censées influencer l’exécution du programme.
+commentaire: trÃ¨s utile Ã  la comprÃ©hension du code !! des portions du code source ignorÃ©es par le compilateur
+ ou lâ€™interprÃ©teur, car destinÃ©es en gÃ©nÃ©ral Ã  un lecteur humain et non censÃ©es influencer lâ€™exÃ©cution du programme.
 
 
 
 ##################################################################################
 
-2- QUelles différences faites-vous entre définition et déclaration ?
+2- QUelles diffÃ©rences faites-vous entre dÃ©finition et dÃ©claration ?
 
-déclaration: permet de déclarer une fonction (prototype)
-définition: définie ce que fait une fonction
+dÃ©claration: permet de dÃ©clarer une fonction (prototype)
+dÃ©finition: dÃ©finie ce que fait une fonction
 
 ##################################################################################
 
-3- QUelles différences faites-vous entre procédures , fonctions et méthodes ?
+3- QUelles diffÃ©rences faites-vous entre procÃ©dures , fonctions et mÃ©thodes ?
 
 J'ai envie de dire qu'il n'y en a peu, voire pas.
-Pour être pointilleux, on pourrait dire que la méthode est une fonction liée à une classe ou un objet.
+Pour Ãªtre pointilleux, on pourrait dire que la mÃ©thode est une fonction liÃ©e Ã  une classe ou un objet.
 
 ##################################################################################
 
-4- Indiquez pour chacun des langages suivants les paradigmes utilisés:
+4- Indiquez pour chacun des langages suivants les paradigmes utilisÃ©s:
 
-assembleur: je dirais paradigmme « mnémoniques » (du grec mnêmonikos, relatif à la mémoire)
+assembleur: je dirais paradigmme Â« mnÃ©moniques Â» (du grec mnÃªmonikos, relatif Ã  la mÃ©moire)
 
-logo: paradigme impérative dans cours, orienté objet sur wiki https://fr.wikipedia.org/wiki/Logo_(langage)
-
-##################################################################################
-
-5- Sans modifier sa grammaire, comment peut-on intégrer un paradigme à un langage ?
-
-Par exemple, pour un langage ne gérant pas les objets, on pourrait utiliser une fonction objet.
+logo: paradigme impÃ©rative dans cours, orientÃ© objet sur wiki https://fr.wikipedia.org/wiki/Logo_(langage)
 
 ##################################################################################
 
-6- Sans modifier sa grammaire, comment peut-on intégrer un paradigme à un langage ?
+5- Sans modifier sa grammaire, comment peut-on intÃ©grer un paradigme Ã  un langage ?
 
-VS Code installé en local, ainsi que node.js
+Par exemple, pour un langage ne gÃ©rant pas les objets, on pourrait utiliser une fonction objet.
+
+##################################################################################
+
+6- Sans modifier sa grammaire, comment peut-on intÃ©grer un paradigme Ã  un langage ?
+
+VS Code installÃ© en local, ainsi que node.js
 
 ##################################################################################
 
 7- Essayer le "Hello World" avec plusieurs langages
 
 Python:
-# coding: utf-8
 print("Hello world")
+
+Scheme:
+(display "Hello, World!")
+
+Prolog:
+printHelloWorld :-
+  write('Hello world !'),
+  nl.
+
+Java:  
+public class HelloWorld {
+    public static void main(String[] args) {
+        // Prints "Hello, World" to the terminal window.
+        System.out.println("Hello, World");
+    }
+}
+
+Basic:(Ã§a me rappele ma jeunesse, le bon vieux temps de l'AMSTRAD CPC6128 !!)
+10 PRINT "Hello, world!"
+20 END
+
 
 
