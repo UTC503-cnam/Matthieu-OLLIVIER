@@ -59,3 +59,9 @@ int main() {
   int n = 5;
   printf ("La factorielle de %d est égale à %d",n,factorielle(n));
 }
+
+#######################################################################
+Ex 05: limite de la fonction récursive
+
+Si on rappelle la fonction trop souvent, on risque un débordement de la pile, soit un Stackoverflow.
+
