@@ -1,0 +1,61 @@
+#################################################
+Ex 01: coder avec if/else + goto
+
+int main() {
+  int n = 5;
+  int factorielle = 0;
+  int valeur = n;
+  factorielle = valeur;
+  debut:
+    if (valeur>1) {
+    factorielle = factorielle*(valeur-1);
+    valeur = valeur-1;
+    goto debut;}
+    else {
+    goto fin;
+    }
+  fin:
+  printf ("La factorielle de %d est égale à %d",n,factorielle);
+}
+
+#################################################
+Ex 02: coder avec la boucle for
+
+int main() {
+  int n = 5;
+  int factorielle = 0;
+  factorielle = n;
+  int valeur =n;
+  for (int compteur = 0; compteur < n-1 ; compteur = compteur +1) {
+    factorielle = factorielle*(valeur-1);
+    valeur=valeur -1;}
+  printf ("La factorielle de %d est égale à %d",n,factorielle);
+}
+
+####################################################################
+Ex 03: coder avec une fonction
+
+int factorielle (int n){
+  int factorielle = n;
+  int valeur =n;
+  for (int compteur = 0; compteur < n-1 ; compteur = compteur +1) {
+    factorielle = factorielle*(valeur-1);
+    valeur=valeur-1;}
+    return factorielle;
+}
+int main() {
+  int n = 5;
+  printf ("La factorielle de %d est égale à %d",n,factorielle(n));
+}
+
+#######################################################################
+Ex 04: coder avec une fonction récursive
+
+int factorielle (int n){
+  if (n>1){
+     return n*factorielle(n-1);}
+}
+int main() {
+  int n = 5;
+  printf ("La factorielle de %d est égale à %d",n,factorielle(n));
+}
