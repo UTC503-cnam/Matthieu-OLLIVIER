@@ -65,3 +65,17 @@ Ex 05: limite de la fonction récursive
 
 Si on rappelle la fonction trop souvent, on risque un débordement de la pile, soit un Stackoverflow.
 
+#######################################################################
+Ex 06: coder des fonctions type map
+
+#define N 5
+void mapDouble (int e[], int r[]){
+  for (int i=0 ; i<N; i++){
+    r[i]=e[i]*2;
+  }
+};
+int main() {
+  int e[N] = {1, 5, 2, 4, 3};
+  int r_double[N];
+  mapDouble (e, r_double);
+};
