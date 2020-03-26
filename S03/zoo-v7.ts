@@ -1,4 +1,4 @@
-class ZooAnimal6 {
+class ZooAnimal7 {
     // Attributs
     nom : string;  // ajout de private pour éviter modification extérieur (intégrite)
     age: number;
@@ -37,7 +37,7 @@ class ZooAnimal6 {
     
 }
 
-class ZooDauphin6 extends ZooAnimal6 {
+class ZooDauphin7 extends ZooAnimal7 {
     poissonPrefere: string ;
 
     constructor(nom: string, age: number, poids: number, poissonPrefere: string){
@@ -53,7 +53,7 @@ class ZooDauphin6 extends ZooAnimal6 {
        return etat ;
     }
 }
-class ZooPanda6 extends ZooAnimal6 {
+class ZooPanda7 extends ZooAnimal7 {
     plantePrefere: string ;
 
     constructor(nom: string, age: number, poids: number, plantePrefere: string){
@@ -70,18 +70,18 @@ class ZooPanda6 extends ZooAnimal6 {
     }
 }
 
-let flipper6 = new ZooDauphin6("Flipper", 30, 150, "hareng");
-let oum6 = new ZooDauphin6("Oum", 20, 100, "sardine");
-let pandi6 = new ZooPanda6("Pandi", 10, 80, "bambou");
+let flipper7 = new ZooDauphin7("Flipper", 30, 150, "hareng");
+let oum7 = new ZooDauphin7("Oum", 20, 100, "sardine");
+let pandi7 = new ZooPanda7("Pandi", 10, 80, "bambou");
 
-flipper6.nouvelleJournee() ;
-pandi6.nouvelleJournee() ;
-oum6.nouvelleJournee()
-flipper6.recoitNourriture(10) ;
-pandi6.recoitNourriture(10) ;
-flipper6.recoitNourriture(25) ;
-oum6.recoitNourriture(30) ;
+flipper7.nouvelleJournee() ;
+pandi7.nouvelleJournee() ;
+oum7.nouvelleJournee()
+flipper7.recoitNourriture(10) ;
+pandi7.recoitNourriture(10) ;
+flipper7.recoitNourriture(25) ;
+oum7.recoitNourriture(30) ;
 
-console.log(flipper6.etatAlimentation());
-console.log(oum6.etatAlimentation());
-console.log(pandi6.etatAlimentation());
+console.log(flipper7.etatAlimentation());
+console.log(oum7.etatAlimentation());
+console.log(pandi7.etatAlimentation());
