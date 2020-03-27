@@ -37,13 +37,13 @@ var Losange = /** @class */ (function (_super) {
     }
     Losange.prototype.rapport = function () {
         var typedeFigure;
-        if (this.longueur1 == this.longueur2) {
+        if (this.longueur1 != this.longueur2) {
             typedeFigure = "losange";
         }
         else {
             typedeFigure = "carré";
         }
-        return "Cette figure est un " + typedeFigure + " de cotés " + this.longueur1 + " et " + this.longueur2 + ", de périmètre " + 2 * (this.longueur1 + this.longueur2) + ", et d'aire " + 2 * (this.longueur1 * this.longueur2);
+        return "Cette figure est un " + typedeFigure + " de diagonales " + this.longueur1 + " et " + this.longueur2 + ", de périmètre " + 2 * (this.longueur1 + this.longueur2) + ", et d'aire " + 2 * (this.longueur1 * this.longueur2);
     };
     ;
     return Losange;
