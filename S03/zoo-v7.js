@@ -51,12 +51,7 @@ var ZooDauphin7 = /** @class */ (function (_super) {
         return _this;
     }
     ZooDauphin7.prototype.etatAlimentation = function () {
-        var etat = this.nom + ", " + this.age + " ans, a reçu " + this.quantiteNourritureTotale + "Kg de nourriture. ";
-        if (this.bienNourri) {
-            etat += " " + this.nom + " est bien nourri.";
-        }
-        etat += " Son poisson préféré est " + this.poissonPrefere + ".";
-        return etat;
+        return _super.prototype.etatAlimentation.call(this) + " Son poisson préféré est " + this.poissonPrefere + ".";
     };
     return ZooDauphin7;
 }(ZooAnimal7));
@@ -68,12 +63,7 @@ var ZooPanda7 = /** @class */ (function (_super) {
         return _this;
     }
     ZooPanda7.prototype.etatAlimentation = function () {
-        var etat = this.nom + ", " + this.age + " ans, a reçu " + this.quantiteNourritureTotale + "Kg de nourriture. ";
-        if (this.bienNourri) {
-            etat += " " + this.nom + " est bien nourri.";
-        }
-        etat += " Sa plante préféré est " + this.plantePrefere + ".";
-        return etat;
+        return _super.prototype.etatAlimentation.call(this) + " Sa plante préféré est " + this.plantePrefere + ".";
     };
     return ZooPanda7;
 }(ZooAnimal7));
