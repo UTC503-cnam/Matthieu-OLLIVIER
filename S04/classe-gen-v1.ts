@@ -23,5 +23,17 @@ let chaine : string = "Tout va bien";
 let compteurAccessChaine = new CompteurAccess(chaine);
 let compteurAccessNombre = new CompteurAccess(nombre);
 
+compteurAccessChaine.getX();
+compteurAccessChaine.getX();
+compteurAccessNombre.getX();
+compteurAccessNombre.getX();
+compteurAccessNombre.getX();
+compteurAccessNombre.getX();
+
+console.log(`La chaine ${chaine} a été vu : ${compteurAccessChaine.getCompteur()} fois`);
+console.log(`Le nombre ${nombre} a été vu : ${compteurAccessNombre.getCompteur()} fois`);
+
+
+
 
 

@@ -4,6 +4,6 @@
       "module": "commonjs"
     },
     "files": [
-      "classe-gen-v1.ts",
+      "generic.ts",
     ]
   }
