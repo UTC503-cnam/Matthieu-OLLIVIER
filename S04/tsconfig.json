@@ -4,6 +4,6 @@
       "module": "commonjs"
     },
     "files": [
-      "pb-v3.ts",
+      "classe-gen-v1.ts",
     ]
   }
